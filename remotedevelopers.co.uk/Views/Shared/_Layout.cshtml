@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>RemoteDevelopers - Better software less cost | Home</title>
+    <link href="content/css/bootstrap.min.css" rel="stylesheet">
+    <link href="content/css/animate.min.css" rel="stylesheet">
+    <link href="content/css/font-awesome.min.css" rel="stylesheet">
+    <link href="content/css/lightbox.css" rel="stylesheet">
+    <link href="content/css/main.css" rel="stylesheet">
+    <link id="css-preset" href="content/css/presets/preset1.css" rel="stylesheet">
+    <link href="content/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="content/images/favicon.ico">
+</head><!--/head-->
+<body>
+    @RenderBody()
+    <!--.preloader-->
+    <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+    <!--/.preloader-->
+    @Html.Partial("_Header")<!--/#home-->
+    @Html.Partial("_Services")<!--/#services-->
+    @Html.Partial("_About")<!--/#about-us-->
+    @Html.Partial("_Portfolio")<!--/#portfolio-->
+    @Html.Partial("_Team")<!--/#team-->
+    @Html.Partial("_Features")<!--/#features-->
+    @Html.Partial("_Pricing")<!--/#pricing-->
+    @Html.Partial("_Social")<!--/#twitter-->
+    @Html.Partial("_Blog")<!--/#blog-->
+    @Html.Partial("_Contact")<!--/#contact-->
+    @Html.Partial("_Footer")
+    @Html.Partial("_GenericScripts")
+   
+</body>
+</html>
